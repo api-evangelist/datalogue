@@ -1,7 +1,27 @@
 aid: datalogue
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datalogue.png
 name: Datalogue
-description: Datalogue is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Datalogue was a self-service data integration and preparation startup founded
+  in 2015 that used machine learning to automatically classify, transform, and
+  standardize data from disparate sources for analytics teams. Backed by
+  Bloomberg Beta, the company was acquired by Nike in February 2019 and its
+  standalone product was discontinued; the datalogue.io domain now serves an
+  unrelated blog. This profile is retained for the API Evangelist network as a
+  historical/portfolio record. The only surviving first-party developer
+  artifacts are the company's public GitHub organization and an unmaintained
+  Python SDK ("datalogue") still published on PyPI.
 url: https://raw.githubusercontent.com/api-evangelist/datalogue/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,20 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: nike
+x-acquired-date: '2019-02'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Integration
+- Data Preparation
+- Machine Learning
+- Analytics
+- Acquired
+- Bloomberg Beta
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.datalogue.io/
+- type: GitHubOrganization
+  url: https://github.com/datalogue
+- type: Packages
+  url: packages/datalogue-packages.yml
+- type: SDKs
+  url: packages/datalogue-packages.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

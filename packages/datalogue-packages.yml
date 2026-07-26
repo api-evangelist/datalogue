@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/pypi/datalogue/json
+note: >-
+  Datalogue Inc. was acquired by Nike in 2019 (the org's own GitHub description
+  reads "[acq. by Nike]") and the product is discontinued; datalogue.io now
+  serves an unrelated blog. The Python SDK below remains published on PyPI as a
+  genuine first-party residual (author nic@datalogue.io, the original founder's
+  address) but is unmaintained. The npm package named "datalogue" is an
+  unrelated 2026 NL->SQL library by a different author and is NOT first-party.
+packages:
+  - language: python
+    registry: pypi
+    name: datalogue
+    url: https://pypi.org/project/datalogue/
+    install: pip install datalogue
+    version: 2023.1.16.1673896549.3915316780
+    requires_python: ">=3.6"
+    summary: SDK to interact with the datalogue platform
+    author: Nicolas Joseph <nic@datalogue.io>
+    homepage: https://github.com/datalogue/platform
+    official: true
+    status: unmaintained
