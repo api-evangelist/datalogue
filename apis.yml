@@ -50,7 +50,7 @@ tags:
 - Company
 - Data Integration
 - Data Preparation
-- Machine-Learning
+- Machine Learning
 - Analytics
 - Acquired
 - Bloomberg Beta
@@ -62,6 +62,7 @@ tags_raw:
 - Analytics
 - Acquired
 - Bloomberg Beta
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
